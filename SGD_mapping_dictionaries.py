@@ -1,39 +1,4 @@
 
-original_domains=['Banks_1', 'Buses_1', 'Buses_2', 'Calendar_1', 'Events_1', 'Events_2', 'Flights_1',
-                  'Flights_2', 'Homes_1', 'Hotels_1', 'Hotels_2', 'Hotels_3', 'Media_1', 'Movies_1', 
-                  'Music_1', 'Music_2', 'RentalCars_1', 'RentalCars_2', 'Restaurants_1', 'RideSharing_1',
-                  'RideSharing_2', 'Services_1', 'Services_2', 'Services_3', 'Travel_1', 'Weather_1', 'Alarm_1',
-                  'Banks_2', 'Flights_3', 'Hotels_4', 'Media_2', 'Movies_2', 'Restaurants_2', 'Services_4',
-                  'Buses_3', 'Events_3', 'Flights_4', 'Homes_2', 'Media_3', 'Messaging_1', 'Movies_3', 'Music_3',
-                  'Payment_1', 'RentalCars_3', 'Trains_1']
-domain_mapping = {
-            'Hotel': ['Hotels_1', 'Hotels_2', 'Hotels_3', 'Hotels_4'],
-            'Train': ['Trains_1'],
-            'Attraction': ['Travel_1'],
-            'Restaurant': ['Restaurants_1', 'Restaurants_2'],
-            'RideSharing': ['RideSharing_1', 'RideSharing_2'],
-            'Bus': ['Buses_1', 'Buses_2', 'Buses_3'],
-            'Flight': ['Flights_1', 'Flights_2', 'Flights_3', 'Flights_4'],
-            'Music': ['Music_1', 'Music_2', 'Music_3'],
-            'Movie': ['Media_1', 'Media_2', 'Media_3','Movies_2', 'Movies_3'],
-            'Cinema': ['Movies_1'],    
-            'Dentist': [ 'Services_2'],
-            'Doctor': ['Services_3'],
-            'HairStylist': ['Services_1'],
-            'Therapist': ['Services_4'],
-            'Bank': ['Banks_1', 'Banks_2'],
-            'Payment' : ['Payment_1'],
-            'Event': ['Events_1', 'Events_2', 'Events_3'],
-            'Rentalcar': ['RentalCars_1', 'RentalCars_2', 'RentalCars_3'],
-            'Home': ['Homes_1', 'Homes_2'],
-            'Calendar': ['Calendar_1'],
-            'Weather': ['Weather_1'],
-            'Alarm': ['Alarm_1'],
-            'Messaging': ['Messaging_1']
-        }
-
-
-
 slot_mapping = {
             'Hotels_1': {
                 'destination': 'city',
